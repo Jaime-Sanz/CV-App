@@ -1,5 +1,5 @@
-export default function Education() {
+/*export default function Education() {
     return (
         
     );
-}
+}*/
