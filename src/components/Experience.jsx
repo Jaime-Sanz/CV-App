@@ -31,6 +31,7 @@ export default function Experience(props){
                    value={experience.company}
                    onChange={handleChange}
                    className={styles['experience-input']}
+                   required
             />
             <label className={styles['experience-label']}>Job Occupation:</label>
             <input type="text" 
@@ -38,6 +39,7 @@ export default function Experience(props){
                    value={experience.occupation}
                    onChange={handleChange}
                    className={styles['experience-input']}
+                   required
             />
             <label className={styles['experience-label']}>Job Location:</label>
             <input type="text" 
@@ -45,6 +47,7 @@ export default function Experience(props){
                    value={experience.location}
                    onChange={handleChange}
                    className={styles['experience-input']}
+                   required
             />
             <label className={styles['experience-label']}>Date Worked:</label>
             <input type="text" 
@@ -52,6 +55,7 @@ export default function Experience(props){
                    value={experience.date}
                    onChange={handleChange} 
                    className={styles['experience-input']}
+                   required
             />
             <label className={styles['experience-label']}>Job Description:</label>
             <input type="text" 
@@ -59,6 +63,7 @@ export default function Experience(props){
                    value={experience.statement}
                    onChange={handleChange} 
                    className={styles['experience-input']}
+                   required
             />
             <input type="submit" value="Submit" className={styles['experience-submit']}/>
         </form>

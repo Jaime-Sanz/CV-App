@@ -31,6 +31,7 @@ export default function Education(props) {
                        value={education.college}
                        onChange={handleChange} 
                        className={styles['education-input']}
+                       required
                 />
                 <label className={styles['education-label']}>Location:</label>
                 <input type="text"
@@ -38,6 +39,7 @@ export default function Education(props) {
                        value={education.location}
                        onChange={handleChange}
                        className={styles['education-input']}
+                       required
                 />
                 <label className={styles['education-label']}>Degree:</label>
                 <input type="text"
@@ -45,6 +47,7 @@ export default function Education(props) {
                        value={education.degree}
                        onChange={handleChange}
                        className={styles['education-input']}
+                       required
                 />
                 <label className={styles['education-label']}>Date Attended:</label>
                 <input type="text"
@@ -52,13 +55,15 @@ export default function Education(props) {
                        value={education.date}
                        onChange={handleChange}
                        className={styles['education-input']}
+                       required
                 />
                 <label className={styles['education-label']}>GPA:</label>
-                <input type="text"
+                <input type="number"
                        name="gpa"
                        value={education.gpa}
                        onChange={handleChange}
                        className={styles['education-input']}
+                       required
                 />
                 <input type="submit" value="Submit" className={styles['education-submit']} />
             </form>

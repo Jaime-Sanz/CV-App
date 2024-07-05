@@ -1,7 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   body {
@@ -35,8 +35,12 @@ body, html {
     width: 70%;
     height: auto;
     margin: 20px;
-    padding: 20px;
     border: 2px solid black;
+  }
+
+  .print-button {
+    width: 200px;
+    height: 50px;
   }
   
 
@@ -51,10 +55,12 @@ body, html {
     
     .resume-container {
       position: absolute;
+      padding: 20px;
       left: 0;
       top: 0;
       width: 670px;
       height: 11in;
       border: none;
+      transform: scale(1.10);
     }
   }

@@ -29,28 +29,32 @@ export default function Personal(props) {
                        name='name' 
                        value={personal.name} 
                        onChange={handleChange}
-                       className={styles['personal-input']} 
+                       className={styles['personal-input']}
+                       required 
                 />
                 <label className={styles['personal-label']}>Address:</label>
                 <input type="text" 
                        name='address' 
                        value={personal.address} 
                        onChange={handleChange}
-                       className={styles['personal-input']} 
+                       className={styles['personal-input']}
+                       required 
                 />
                 <label className={styles['personal-label']}>Email:</label>
                 <input type="email" 
                        name='email' 
                        value={personal.email} 
                        onChange={handleChange}
-                       className={styles['personal-input']} 
+                       className={styles['personal-input']}
+                       required 
                 />
                 <label className={styles['personal-label']}>Phone Number:</label>
                 <input type="tel" 
                        name='phone' 
                        value={personal.phone} 
                        onChange={handleChange}
-                       className={styles['personal-input']} 
+                       className={styles['personal-input']}
+                       required 
                 />
                 <input type="submit" value="Submit" className={styles['personal-submit']} />
             </form>
