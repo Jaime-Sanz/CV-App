@@ -1,0 +1,22 @@
+.experience-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 15px;
+}
+
+.experience-label {
+    align-self: center;
+}
+
+.experience-input {
+    align-self: center;
+}
+
+.experience-submit {
+    align-self: center;
+}

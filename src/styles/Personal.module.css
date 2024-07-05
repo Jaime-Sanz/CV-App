@@ -1,0 +1,22 @@
+.personal-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 15px;
+}
+
+.personal-label {
+    align-self: center;
+}
+
+.personal-input {
+    align-self: center;
+}
+
+.personal-submit {
+    align-self: center;
+}

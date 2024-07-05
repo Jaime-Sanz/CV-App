@@ -1,0 +1,22 @@
+.education-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 15px;
+}
+
+.education-label {
+    align-self: center;
+}
+
+.education-input {
+    align-self: center;
+}
+
+.education-submit {
+    align-self: center;
+}
